@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
     Blogpost.find({}, function(err, blogposts) {
 
 
+
         res.send(blogposts);
     });
 });
